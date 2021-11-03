@@ -1,0 +1,16 @@
+{
+    "name": "leetcode-box",
+    "version": "0.1.0",
+    "description": "Update a gist to contain your leetcode stats",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "puiiyuen",
+    "license": "MIT",
+    "dependencies": {
+        "@octokit/rest": "^18.12.0",
+        "axios": "^0.24.0",
+        "dotenv": "^10.0.0"
+    }
+}
