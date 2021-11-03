@@ -12,7 +12,7 @@ jobs:
      - uses: actions/checkout@v2
      - run: npm install
      - name: Update LeetCode Gist
-       uses: puiiyuen/leetcode-box@main
+       uses: ./
        env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
