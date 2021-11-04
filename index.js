@@ -32,8 +32,8 @@ async function updateLeetCodeGist(leetcode) {
     const lines = []
 
     const title = [
-        "Difficulty".padEnd(12),
-        "Solved".padEnd(10),
+        "Difficulty".padEnd(10),
+        "Solved".padEnd(9),
         "Accepted Rate".padEnd(8)
     ]
     lines.push(title.join(" "))
@@ -44,13 +44,14 @@ async function updateLeetCodeGist(leetcode) {
         const solvedRadio = leetcode.solved[i].solvedRadio
 
         const line = [
-            difficulty.padEnd(12),
-            solvedRadio.padEnd(10),
-            generateBarChart(acceptedRate, 21),
+            difficulty.padEnd(10),
+            solvedRadio.padEnd(9),
+            generateBarChart(acceptedRate, 20),
             String(acceptedRate.toFixed(1)).padStart(5) + "%"
         ]
         lines.push(line.join(" "))
     }
+
 
     try {
         const filename = Object.keys(gist.data.files)[0]

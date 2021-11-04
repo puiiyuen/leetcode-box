@@ -7,7 +7,8 @@
 ![](https://img.shields.io/github/license/puiiyuen/leetcode-box)
 ![](https://img.shields.io/github/workflow/status/puiiyuen/leetcode-box/Update%20LeetCode%20gist)
 ---
-> 📌✨ For more pinned-gist projects like this one, check out: <https://github.com/matchai/awesome-pinned-gists>
+> 📌✨ For more pinned-gist projects like this one, check out:
+>  https://github.com/matchai/awesome-pinned-gists
 
 ## Prep Work
 
