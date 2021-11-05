@@ -56,7 +56,7 @@ exports.getLeetCodeStats = async function getLeetCodeStats() {
             const totalSubmission = matchedUser.submitStats.totalSubmissionNum[i].submissions
             let question = {
                 "difficulty": difficulty,
-                "acceptedRate": (acSubmission / totalSubmission * 100),
+                "acceptedRate": totalSubmission == 0 ? 0.0 : (acSubmission / totalSubmission * 100),
                 "solvedRadio": accepted + "/" + allQuestion
             }
             result.solved.push(question)

@@ -1,6 +1,6 @@
 {
     "name": "leetcode-box",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Update a gist to contain your leetcode stats",
     "main": "index.js",
     "scripts": {
