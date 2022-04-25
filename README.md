@@ -21,6 +21,6 @@
 1. Fork this repository
 2. Go to your fork's `Settings` > `Secrets` > `Add a new secret` for each environment secret:
    - **`GIST_ID`:** 32 bits ID from your gist URL 
-     `https://gist.github.com/{github_username}/`**`762ebda9730630395aabdee06ce58fd1`** 
+     `https://gist.github.com/{github_username}/`**`762ebda9730630395aabdee06ce58fd1`**
    - **`GH_TOKEN`:** The GitHub token generated above
    - **`LEETCODE_USERNAME`:** Your LeetCode Username
